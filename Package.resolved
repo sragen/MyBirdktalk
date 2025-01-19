@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "state" : {
+        "revision" : "af76cf3ef710b6ca5f8c05f3a31307d44a3c5828",
+        "version" : "5.0.2"
+      }
+    },
+    {
+      "identity" : "tinodesdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wirasetiawan29/TinodeSDK.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d03c19af9a5bbd6159e205cbd749bef99ff3e148"
+      }
+    }
+  ],
+  "version" : 2
+}
