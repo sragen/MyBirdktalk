@@ -17,8 +17,7 @@ let package = Package(
     ],
     dependencies: [
             // Add your GitHub dependencies here
-            .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.0"),
-            .package(url: "https://github.com/wirasetiawan29/TinodeSDK.git", branch: "main")
+            .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -26,7 +25,7 @@ let package = Package(
         .target(
             name: "MyBirdtalk",
             dependencies: [
-                "TinodeSDK"
+                "SwiftyJSON"
             ],
             path: "Sources/MyBirdtalk",
             resources: [
